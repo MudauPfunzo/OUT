@@ -12,18 +12,16 @@ namespace CSVFileSort.FileProcessing
     public class FileProcessor
     {
         public string FilePath { get; set; }
-        public string OrderBy { get; set; }
-        public string Sort { get; set; }
+      
         private string[] recordsFromFileWithHearder = new string[] { };
         private IEnumerable<string> recordsFromFile;
         private string ProjectDirectory = Path.GetDirectoryName(Directory.GetParent(Environment.CurrentDirectory).ToString());
 
         public FileProcessor() { }
-        public FileProcessor(string path,string orderby ,string sort)
+        public FileProcessor(string path)
         {
             this.FilePath = Path.Combine(ProjectDirectory, path) ;
-            this.OrderBy = orderby;
-            this.Sort = sort;
+          
         }
         private void ReadFile()
         {

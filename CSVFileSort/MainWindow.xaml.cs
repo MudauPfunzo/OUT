@@ -21,7 +21,7 @@ namespace CSVFileSort
     /// </summary>
     public partial class MainWindow : Window
     {
-        FileProcessor fp = new FileProcessor(@"resources\file\data.csv", "", "");
+        FileProcessor fp = new FileProcessor(@"resources\file\data.csv");
         public MainWindow()
         {
             InitializeComponent();
