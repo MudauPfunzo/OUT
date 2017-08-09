@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSVFileSort", "CSVFileSort\CSVFileSort.csproj", "{931F3377-EFFB-4EC1-A31D-F44693DC92AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsvFileSortingTest", "CsvFileSortingTest\CsvFileSortingTest.csproj", "{7395CEE0-5342-4A16-BBB1-8F24737335D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{931F3377-EFFB-4EC1-A31D-F44693DC92AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{931F3377-EFFB-4EC1-A31D-F44693DC92AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{931F3377-EFFB-4EC1-A31D-F44693DC92AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7395CEE0-5342-4A16-BBB1-8F24737335D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7395CEE0-5342-4A16-BBB1-8F24737335D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7395CEE0-5342-4A16-BBB1-8F24737335D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7395CEE0-5342-4A16-BBB1-8F24737335D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
