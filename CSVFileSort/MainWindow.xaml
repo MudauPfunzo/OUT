@@ -7,7 +7,10 @@
         mc:Ignorable="d"
         Title="CSV File Sorting" Height="350" Width="525">
     <Grid>
-        <Image HorizontalAlignment="Left" Source="C:\Users\Pfunzo\Desktop\OUT\CSVFileSort\CSVFileSort\resources\images\OUTsurance.png"  Height="162" VerticalAlignment="Top" Width="508" Margin="0,10,0,0"/>
+        <Image HorizontalAlignment="Left" Source="resources\images\OUTsurance.png"  Height="151" VerticalAlignment="Top" Width="508"/>
+        <Button x:Name="cmdCreateFiles" Content="Create Files" HorizontalAlignment="Left" Margin="189,151,0,0" VerticalAlignment="Top" Width="122" Height="37" IsDefault="True" Click="cmdCreateFiles_Click"/>
+        <Button x:Name="cmdOpenFile1" Content="Open File 1" HorizontalAlignment="Left" Margin="25,248,0,0" VerticalAlignment="Top" Width="84" RenderTransformOrigin="-0.198,0.42" Height="27" IsEnabled="False" Click="cmdOpenFile1_Click" />
+        <Button x:Name="cmdOpenFile2" Content="Open FIle 2" HorizontalAlignment="Left" Margin="418,248,0,0" VerticalAlignment="Top" Width="75" Height="27" IsEnabled="False" Click="cmdOpenFile2_Click"/>
 
     </Grid>
 </Window>
